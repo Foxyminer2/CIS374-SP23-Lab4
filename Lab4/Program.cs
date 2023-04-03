@@ -22,7 +22,7 @@ class Program
         Person[] persons = { kaylee, austin, priscilla, kenan, abbie, sam, luke,
             gavin, tucker, avery, allison, savannah, brigitte, christian, wesley };
 
-        var personGroups = PersonGroup.GeneratePersonGroups(new List<Person>(persons), 3);
+        var personGroups = PersonGroup.GeneratePersonGroups(new List<Person>(persons), 26);
 
         for(var index =0; index < personGroups.Count; index++)
         {
